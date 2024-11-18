@@ -25,3 +25,9 @@ The distance between each anchor and the tag can be measured. With those three d
 In order to determine the direction of a user's gestures, we need to calculate their orientation.
 Since the LeapMotion does not have an inbuilt gyroscope, a MPU6500 6-axis sensor is connected to the user's tag.
 
+
+### Wiring:
+This is part of the ESP32s schematics:
+![Bildschirmfoto 2024-11-18 um 15 55 07](https://github.com/user-attachments/assets/890285f7-860c-481b-9470-6e1148bf145d)
+
+
