@@ -9,7 +9,7 @@
 |makerfabs          |ESP32 UWB DW3000                | 43,44              | x4      |
 |UltraLeap          |Leap Motion Controller (2nd Gen)| -                  | -       |
 |BTF-Lighting       |WS2812B LED-strips (60/m)       | -                  | -       |
-|Hornaxy            |MPU6050 (6DOF)                  | 1,32               |         |
+|Hornaxy            |MPU6500 (6DOF)                  | 1,32               |         |
 |                   |                                |                    |         |
 |+ shipping 30,39€  |                                | sum:               | 205,41€ |
 
