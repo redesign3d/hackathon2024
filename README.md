@@ -5,7 +5,7 @@
 ### Hardware
 
 |manufacturer       |name                            |price per unit (EUR)|quantity |
-|:---               |:---:                           |---:                |---:     |    
+|:---               |:---                            |---:                |---:     |    
 |makerfabs          |ESP32 UWB DW3000                | 43,44              | x4      |
 |UltraLeap          |Leap Motion Controller (2nd Gen)| -                  | -       |
 |BTF-Lighting       |WS2812B LED-strips (60/m)       | -                  | -       |
