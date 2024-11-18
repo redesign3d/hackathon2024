@@ -2,8 +2,11 @@
 
 ## Hardware
 
-|manufacturer|name|price per unit (EUR)|quantity|
-|:---|:---:|---:|---:|
-|makerfabs|ESP32 UWB DW3000|43,44|x4|
-|UltraLeap|Leap Motion Controller (2nd Gen)| - | - |
-|   |   |   |   |
+|manufacturer       |name                            |price per unit (EUR)|quantity |
+|:---               |:---:                           |---:                |---:     |    
+|makerfabs          |ESP32 UWB DW3000                | 43,44              | x4      |
+|UltraLeap          |Leap Motion Controller (2nd Gen)| -                  | -       |
+|                   |                                |                    |         |
+|                   |                                |                    |         |
+|                   |                                |                    |         |
+|+ shipping 30,39€  |                                | sum:               | 204,09€ |
