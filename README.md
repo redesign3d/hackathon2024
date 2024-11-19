@@ -55,4 +55,9 @@ Tag - Required Pins:
 - VCC -> 3V3
 - GND -> GND
 - SCL -> GPIO22
-- SDA -> GPIO21 
+- SDA -> GPIO21
+
+---
+### 3D-printed parts:
+The mount for all ESP32s and LEDs were modeled and printed to make it more visually appealing and more comfortable to work with.
+The same was done for the combination of LeapMotion, ESP32 and MPU6500.
