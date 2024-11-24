@@ -19,20 +19,9 @@
 ---
 ### Local Positioning.
 All ESP-32s are connected to a DW3000 UWB chip.
-The ones controlling our LEDs will simultaneously be used as anchors, another one will be mounted with the LeapMotion and act as a Tag.
+Contrary to the traditional approach using anchors and a tag, we implement a node-based positioning system, which allows us to calculate the relative positions of our "anchors" as well.
+This is derived from NoopLoop's system used in their LinkTrack devices. (https://ftp.nooploop.com/downloads/linktrack/LinkTrack_Datasheet_V2.3_zh.pdf)
 
-The distance between each anchor and the tag can be measured.
-With one anchor (and one distance measurement), the tag could be at any position along a circle where the radius equals the distance measured around the anchor:
-<img width="885" alt="1anchor" src="https://github.com/user-attachments/assets/7a1c7280-2408-410c-b6a2-528c6e334535">
-</br>
-
-Using two anchors narrows it down to two possible positions:
-<img width="885" alt="2anchors" src="https://github.com/user-attachments/assets/f44b2f5c-36ff-478b-8acd-1cf1666bcf97">
-</br>
-
-And a third anchor should allow us to calculate a relatively precise local position:
-<img width="885" alt="3anchors" src="https://github.com/user-attachments/assets/9a7bac47-2a2e-409b-bba5-0856acae7ee6">
-</br></br>
 
 ---
 ### calculating the orientation of the tag.
