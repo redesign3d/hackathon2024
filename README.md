@@ -25,10 +25,12 @@ This is derived from NoopLoop's system used in their LinkTrack devices. (https:/
 
 ---
 ### calculating the orientation of the tag.
-Basically. there are two ways to calculate the angle of a sensor, such as the MPU6500:
+There are two main ways to calculate the angle of a sensor, such as the MPU6500:
 - gyro integration (drags past errors alog, inprecise over time)
 - accelerometer trigonometry (prone to errors from vibration) </br>
 -> Solution: 1-dimensional Kalman-Filter (modified version of [CarbonAeronautics 1DKalmanFilter](https://github.com/CarbonAeronautics/Part-XV-1DKalmanFilter))
+
+Orientation calculation can be found within the tag.ino
 
 ---
 ### Wiring.
